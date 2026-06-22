@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 80" role="img" aria-label="Orange Money">
+  <defs>
+    <linearGradient id="obg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#fff8e7"/>
+      <stop offset="100%" stop-color="#f5f0e0"/>
+    </linearGradient>
+    <linearGradient id="ogold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#b8910a"/>
+      <stop offset="100%" stop-color="#d4af37"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fond ivoire arrondi -->
+  <rect width="220" height="80" rx="14" fill="url(#obg)"/>
+  <!-- Bordure dorée -->
+  <rect x="1" y="1" width="218" height="78" rx="13.5" fill="none" stroke="#d4af37" stroke-width="1.2" opacity="0.5"/>
+
+  <!-- Cercle doré avec "OM" -->
+  <circle cx="34" cy="40" r="22" fill="none" stroke="url(#ogold)" stroke-width="2"/>
+  <text x="34" y="45"
+    text-anchor="middle"
+    fill="url(#ogold)"
+    font-family="'Helvetica Neue', Arial, sans-serif"
+    font-weight="800"
+    font-size="13"
+    letter-spacing="-0.5">OM</text>
+
+  <!-- Texte -->
+  <text x="68" y="36"
+    fill="#b8910a"
+    font-family="'Helvetica Neue', Arial, sans-serif"
+    font-weight="700"
+    font-size="18">Orange</text>
+  <text x="68" y="56"
+    fill="#c9a020"
+    font-family="'Helvetica Neue', Arial, sans-serif"
+    font-weight="400"
+    font-size="15"
+    letter-spacing="0.5">Money</text>
+</svg>
